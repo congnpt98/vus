@@ -1,0 +1,37 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 16px;
+}
+
+.line {
+  background-image: url(../images/line.png);
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+
+/* HEADER */
+/* CAROUSEL */
+/* INTRO */
+/* PROGRAMS */
+/* NEWS */
+/* FOOTER */
