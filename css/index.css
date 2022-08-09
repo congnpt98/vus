@@ -70,20 +70,43 @@ h2 {
 
 /* CAROUSEL */
 .carousel {
-    background-image: url(../images/slider_1.png);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    margin-top: 20px;
+  background-image: url(../images/slider_1.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
 }
 
 /* INTRO */
 .intro p {
-    text-align: center;
-    color: #636363;
-    line-height: 25px;
-    padding: 0 25px;
+  text-align: center;
+  color: #636363;
+  line-height: 25px;
+  padding: 0 25px;
 }
 /* PROGRAMS */
+
+.programs__content {
+  margin-top: 30px;
+}
+
+.programs__item {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.programs__item img {
+  width: 100%;
+}
+
+.programs__item h3 {
+  color: #b31c25;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0 5px;
+}
+
 /* NEWS */
 /* FOOTER */
