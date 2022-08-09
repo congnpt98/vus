@@ -30,6 +30,43 @@ h2 {
 }
 
 /* HEADER */
+.header__logoImg {
+  float: left;
+}
+
+.header__slogan {
+  float: right;
+  margin-right: 120px;
+}
+
+.header__navbar ul {
+  list-style: none;
+  border-top: 1px solid #e6e8e8;
+  border-bottom: 1px solid #e6e8e8;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.header__navbar ul li {
+  display: inline;
+}
+
+.header__navbar ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: border;
+  font-size: 1.13vw;
+  color: #222f6e;
+  padding: 0 0.3em;
+}
+
+.header__navbar ul li:hover {
+  border-bottom: 2px solid #b31c25;
+}
+
+.header__navbar ul .active {
+  border-bottom: 2px solid #b31c25;
+}
 /* CAROUSEL */
 /* INTRO */
 /* PROGRAMS */
