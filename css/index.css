@@ -67,7 +67,16 @@ h2 {
 .header__navbar ul .active {
   border-bottom: 2px solid #b31c25;
 }
+
 /* CAROUSEL */
+.carousel {
+    background-image: url(../images/slider_1.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
 /* INTRO */
 /* PROGRAMS */
 /* NEWS */
