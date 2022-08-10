@@ -110,3 +110,19 @@ h2 {
 
 /* NEWS */
 /* FOOTER */
+.footer {
+  background-color: #b31c25;
+  color: white;
+  padding: 20px 50px;
+}
+
+.footer img {
+  float: left;
+}
+
+.footer p {
+  float: right;
+  width: 50%;
+  word-spacing: 2px;
+  text-align: justify;
+}
