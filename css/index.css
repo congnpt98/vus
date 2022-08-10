@@ -109,6 +109,50 @@ h2 {
 }
 
 /* NEWS */
+.news__left,
+.news__right {
+  float: left;
+  width: 50%;
+}
+
+.news__text {
+  position: relative;
+}
+
+.news__text img {
+  width: 100%;
+  display: block;
+}
+
+.news__text p {
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 10px;
+  margin: 0;
+}
+
+.news__text hr {
+  height: 5px;
+  margin: 0;
+  background-color: #b31c25;
+  margin-top: 3px;
+}
+
+.news__left .news__text p {
+  font-size: 24px;
+}
+
+.new__item--small {
+  float: left;
+  width: 50%;
+  padding: 0 7.5px 10px;
+}
+
 /* FOOTER */
 .footer {
   background-color: #b31c25;
